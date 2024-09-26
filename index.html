@@ -1,0 +1,78 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="./src/output.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+</head>
+
+<body>
+    <div class="flex container bg-[#F7F8FD] py-20">
+        <aside class="flex flex-col w-96 mr-20 gap-10">
+            <div class="bg-custom-radial pt-20 font-bold p-4 rounded-xl">
+                <h3 class="text-white text-2xl">Frontend Mentor</h3>
+                <p class="text-white font-normal">Feedback Board</p>
+            </div>
+
+            <div class="categories bg-white rounded-xl p-4 grid grid-cols-2 items-center gap-6 py-12">
+                
+            </div>
+
+            <div class="flex flex-col gap-5 p-4 bg-white rounded-xl">
+                <div class="flex justify-between">
+                    <h3>Roadmap</h3>
+                    <a href="#" class="text-blue-500 text-lg">View</a>
+                </div>
+
+                <div class="flex flex-col gap-3">
+                    <div class="flex justify-between text-[#647196]">
+                        <p><i class="fa-solid fa-circle mr-4" style="color: #FFD43B;"></i>Planned</p>
+                        <p>2</p>
+                    </div>
+                    <div class="flex justify-between text-[#647196]">
+                        <p><i class="fa-solid fa-circle mr-4" style="color: #463ac9;"></i>In-Progress</p>
+                        <p>3</p>
+                    </div>
+                    <div class="flex justify-between text-[#647196]">
+                        <p><i class="fa-solid fa-circle mr-4" style="color: #9abdf2;"></i>Live</p>
+                        <p>1</p>
+                    </div>
+                </div>
+            </div>
+        </aside>
+
+
+        <div class="w-full">
+            <header class="w-full">
+                <nav class="bg-[#373F68] w-full py-5 px-10 rounded-xl">
+                    <div class="flex items-center justify-between">
+                        <div class="flex gap-6 items-center">
+                            <img src="./imgs/logo.svg" alt="logo">
+                            <div class="flex gap-1">
+                                <p class="text-white">Sortby:</p>
+                                <select class="bg-inherit text-white">
+                                    <option>Most Upvotes</option>
+                                    <option>Kost Upvotes</option>
+                                    <option>Yost Upvotes</option>
+                                </select>
+                            </div>
+                        </div>
+
+                        <button class="bg-blue-700 p-2 rounded-lg text-white">+ Add Feedback</button>
+                    </div>
+                </nav>
+            </header>
+            <main>
+                <section class="mainSection mt-8 flex flex-col gap-5">
+                    
+                </section>
+            </main>
+        </div>
+    </div>
+
+    <script src="./main.js"></script>
+</body>
+
+</html>
